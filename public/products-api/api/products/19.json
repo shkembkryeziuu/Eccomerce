@@ -1,0 +1,8 @@
+{
+    "id": 19,
+    "name": "Peloton Bike",
+    "imageUrl": "bike.jpg",
+    "price": 1895.00,
+    "categoryId": 17,
+    "description": "The Peloton Bike is a high-tech indoor exercise bike with a built-in touchscreen display and access to live and on-demand workout classes."
+}

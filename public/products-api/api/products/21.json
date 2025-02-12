@@ -1,0 +1,8 @@
+{
+    "id": 21,
+    "name": "Nest Learning Thermostat",
+    "imageUrl": "nest.jpg",
+    "price": 249.99,
+    "categoryId": 1,
+    "description": "The Nest Learning Thermostat is a smart and energy-efficient device that learns your habits and preferences to automatically adjust the temperature of your home."
+}

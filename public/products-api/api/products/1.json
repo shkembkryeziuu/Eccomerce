@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "name": "Apple MacBook Air",
+    "imageUrl": "macbookair.jpeg",
+    "price": 999.99,
+    "categoryId": 2,
+    "description": "The Apple MacBook Air is a sleek and powerful laptop with a high-resolution Retina display and long battery life."
+}

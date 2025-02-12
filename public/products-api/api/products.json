@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "name": "Apple MacBook Air",
+        "imageUrl": "macbookair.jpeg",
+        "price": 999.99,
+        "categoryId": 2
+    },
+    {
+        "id": 2,
+        "name": "HP Envy x360",
+        "imageUrl": "hpenvy.jpg",
+        "price": 849.99,
+        "categoryId": 2
+    },
+    {
+        "id": 3,
+        "name": "Samsung Galaxy S21",
+        "imageUrl": "samsungs21.jpg",
+        "price": 899.99,
+        "categoryId": 3
+    },
+    {
+        "id": 4,
+        "name": "Google Pixel 5",
+        "imageUrl": "pixel5.jpeg",
+        "price": 699.99,
+        "categoryId": 3
+    },
+    {
+        "id": 5,
+        "name": "Canon EOS Rebel T8i",
+        "imageUrl": "canont8i.jpg",
+        "price": 899.99,
+        "categoryId": 6
+    },
+    {
+        "id": 6,
+        "name": "Nikon D850",
+        "imageUrl": "nikond850.png",
+        "price": 2799.99,
+        "categoryId": 6
+    },
+    {
+        "id": 7,
+        "name": "Sony Cyber-shot DSC-RX100 VII",
+        "imageUrl": "sonyrx100.jpeg",
+        "price": 1199.99,
+        "categoryId": 7
+    },
+    {
+        "id": 8,
+        "name": "Levis 501 Original Fit Jeans",
+        "imageUrl": "levis501.jpg",
+        "price": 79.99,
+        "categoryId": 10
+    },
+    {
+        "id": 9,
+        "name": "Lululemon Wunder Under High-Rise Leggings",
+        "imageUrl": "lululemon.jpg",
+        "price": 98.00,
+        "categoryId": 10
+    },
+    {
+        "id": 10,
+        "name": "Nike Air Zoom Pegasus 38",
+        "imageUrl": "nikepegasus38.png",
+        "price": 119.99,
+        "categoryId": 11
+    },
+    {
+        "id": 11,
+        "name": "Rolex Submariner Date",
+        "imageUrl": "rolex.png",
+        "price": 8995.00,
+        "categoryId": 14
+    },
+    {
+        "id": 12,
+        "name": "Tissot Le Locle Automatic",
+        "imageUrl": "tissot.jpg",
+        "price": 525.00,
+        "categoryId": 14
+    },
+    {
+        "id": 13,
+        "name": "Michael Kors Large Pebbled Leather Shoulder Bag",
+        "imageUrl": "kors.jpeg",
+        "price": 298.00,
+        "categoryId": 15
+    },
+    {
+        "id": 14,
+        "name": "Samsonite Omni PC Hardside Spinner 28\"",
+        "imageUrl": "samsonite.jpg",
+        "price": 119.99,
+        "categoryId": 15
+    },
+    {
+        "id": 15,
+        "name": "Apple iPhone 13 Pro",
+        "imageUrl": "ip13.jpg",
+        "price": 1099.99,
+        "categoryId": 3
+    },
+    {
+        "id": 16,
+        "name": "Bose QuietComfort 35 II Wireless Headphones",
+        "imageUrl": "bose35.png",
+        "price": 299.99,
+        "categoryId": 16
+    },
+    {
+        "id": 17,
+        "name": "Sony WH-1000XM4 Wireless Headphones",
+        "imageUrl": "sony1000xm4.png",
+        "price": 349.99,
+        "categoryId": 16
+    },
+    {
+        "id": 18,
+        "name": "Fitbit Charge 5",
+        "imageUrl": "fitbit.jpg",
+        "price": 179.99,
+        "categoryId": 14
+    },
+    {
+        "id": 19,
+        "name": "Peloton Bike",
+        "imageUrl": "bike.jpg",
+        "price": 1895.00,
+        "categoryId": 17
+    },
+    {
+        "id": 20,
+        "name": "Garmin Forerunner 945 GPS Smartwatch",
+        "imageUrl": "garmin.jpg",
+        "price": 599.99,
+        "categoryId": 14
+    },
+    {
+        "id": 21,
+        "name": "Nest Learning Thermostat",
+        "imageUrl": "nest.jpg",
+        "price": 249.99,
+        "categoryId": 1
+    },
+    {
+        "id": 22,
+        "name": "Dyson V11 Torque Drive Cordless Vacuum",
+        "imageUrl": "dyson.jpeg",
+        "price": 699.99,
+        "categoryId": 1
+    },
+    {
+        "id": 23,
+        "name": "KitchenAid Artisan Stand Mixer",
+        "imageUrl": "artisan.jpeg",
+        "price": 399.99,
+        "categoryId": 1
+    },
+    {
+        "id": 24,
+        "name": "Cuisinart 14-Cup Food Processor",
+        "imageUrl": "foodprocessor.jpg",
+        "price": 199.99,
+        "categoryId": 1
+    },
+    {
+        "id": 25,
+        "name": "Vitamix 5200 Blender",
+        "imageUrl": "vitamix5200.jpeg",
+        "price": 449.99,
+        "categoryId": 1
+    }    
+]
