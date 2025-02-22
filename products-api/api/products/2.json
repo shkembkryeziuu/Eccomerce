@@ -1,0 +1,8 @@
+{
+    "id": 2,
+    "name": "HP Envy x360", 
+    "imageUrl": "hpenvy.jpg", 
+    "price": 849.99, 
+    "categoryId": 2, 
+    "description": "The HP Envy x360 is a versatile 2-in-1 laptop with a powerful AMD Ryzen processor and a durable aluminum chassis."
+}

@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Electronics",
+        "parent": null
+    },
+    {
+        "id": 2,
+        "name": "Laptops",
+        "parent": 1
+    },
+    {
+        "id": 3,
+        "name": "Smartphones",
+        "parent": 1
+    },
+    {
+        "id": 4,
+        "name": "Cameras",
+        "parent": 1
+    },
+    {
+        "id": 5,
+        "name": "Digital Cameras",
+        "parent": 4
+    },
+    {
+        "id": 6,
+        "name": "DSLR Cameras",
+        "parent": 4
+    },
+    {
+        "id": 7,
+        "name": "Point and Shoot Cameras",
+        "parent": 4
+    },
+    {
+        "id": 8,
+        "name": "Clothing",
+        "parent": null
+    },
+    {
+        "id": 9,
+        "name": "Mens Clothing",
+        "parent": 8
+    },
+    {
+        "id": 10,
+        "name": "Womens Clothing",
+        "parent": 8
+    },
+    {
+        "id": 11,
+        "name": "Shoes",
+        "parent": 8
+    },
+    {
+        "id": 12,
+        "name": "Accessories",
+        "parent": null
+    },
+    {
+        "id": 13,
+        "name": "Jewelry",
+        "parent": 12
+    },
+    {
+        "id": 14,
+        "name": "Watches",
+        "parent": 12
+    },
+    {
+        "id": 15,
+        "name": "Bags and Luggage",
+        "parent": 12
+    },
+    {
+        "id": 16,
+        "name": "Headphones",
+        "parent": 1
+    },
+    {
+        "id": 17,
+        "name": "Bikes",
+        "parent": null
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "id": 4,
+    "name": "Google Pixel 5",
+    "imageUrl": "pixel5.jpeg",
+    "price": 699.99,
+    "categoryId": 3,
+    "description": "The Google Pixel 5 is a popular smartphone with a beautiful OLED display and advanced camera features."
+}
