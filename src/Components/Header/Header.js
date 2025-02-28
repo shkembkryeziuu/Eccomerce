@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className="bg-gray-900 text-white p-4 flex justify-between items-center shadow-md">
-      <h1 className="text-2xl font-bold text-pink-400">{t("ecommerce")}</h1>
+      <h1 className="text-2xl font-bold text-blue-400">{t("ecommerce")}</h1>
 
       <div className="flex items-center space-x-6">
         <button
