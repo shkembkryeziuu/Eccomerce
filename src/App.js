@@ -7,7 +7,7 @@ import ProductDetail from "./Components/Product/ProductDetail";
 import Login from "./Components/Login/Login";
 import Cart from "./Components/Cart/Cart";
 import { CartPage } from "./Components/Cart/Cartpage";
-import { LanguageProvider } from "./context/LanguageContext"; // Import LanguageProvider
+import { LanguageProvider } from "./context/LanguageContext";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -27,11 +27,11 @@ function App() {
     <Router basename="/Eccomerce">
       <LanguageProvider>
         {" "}
-        {/* Wrap the whole app with LanguageProvider */}
         <CartPage>
           <div className="flex flex-col min-h-screen">
             {!isLoggedIn ? (
               <Login
+                path="/login"
                 credentials={credentials}
                 setCredentials={setCredentials}
                 handleLogin={handleLogin}

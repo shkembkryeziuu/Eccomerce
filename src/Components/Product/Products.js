@@ -56,7 +56,6 @@ function Products() {
     setCurrentPage(1);
   };
 
-  // Function to get all subcategories
   const getSubcategories = (categoryId) => {
     let subcategories = categories
       .filter((cat) => cat.parent === categoryId)
@@ -74,7 +73,6 @@ function Products() {
       ? Number(filteredCategory)
       : null;
 
-    // Get all subcategories if a parent category is selected
     const categoryIds = selectedCategoryId
       ? [selectedCategoryId, ...getSubcategories(selectedCategoryId)]
       : [];
@@ -102,8 +100,6 @@ function Products() {
       <h1 className="text-3xl font-bold mb-6 text-center">
         {t("shoppingCart")}
       </h1>
-
-      {/* Category Filter */}
       <div className="mb-6">
         <select
           onChange={handleCategoryFilterChange}
@@ -118,7 +114,6 @@ function Products() {
         </select>
       </div>
 
-      {/* Price Filter */}
       <div className="mb-6">
         <div className="flex space-x-4">
           <div>
@@ -147,18 +142,16 @@ function Products() {
           </div>
         </div>
       </div>
-
-      {/* Product Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {currentProducts.map((product) => (
           <div key={product.id} className="bg-white shadow-lg rounded-lg p-6">
             <img
-              src={`/Eccomerce/images/${product.imageUrl}`} // Ensure correct path
+              src={`/Eccomerce/images/${product.imageUrl}`}
               alt={product.name}
               className="w-40 h-40 mx-auto object-contain mb-4 rounded-lg shadow-md"
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src = "/Eccomerce/images/default.jpg"; // Fallback image
+                e.target.src = "/Eccomerce/images/default.jpg";
               }}
             />
             <h2 className="text-lg font-semibold">{product.name}</h2>
@@ -173,7 +166,6 @@ function Products() {
         ))}
       </div>
 
-      {/* Pagination */}
       <div className="flex justify-center mt-8 space-x-4">
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded-lg"
