@@ -6,7 +6,7 @@ function Products() {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [filteredCategory, setFilteredCategory] = useState(""); // Store category ID
+  const [filteredCategory, setFilteredCategory] = useState("");
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(10000);
   const { t } = useLanguage();
