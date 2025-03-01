@@ -34,7 +34,6 @@ function App() {
         <CartPage>
           <div className="flex flex-col min-h-screen">
             {!isLoggedIn ? (
-              // Login Page
               <Routes>
                 <Route
                   path="/login"
