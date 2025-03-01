@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import { useState } from "react";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -26,17 +31,24 @@ function App() {
   return (
     <Router basename="/Eccomerce">
       <LanguageProvider>
-        {" "}
         <CartPage>
           <div className="flex flex-col min-h-screen">
             {!isLoggedIn ? (
-              <Login
-                path="/login"
-                credentials={credentials}
-                setCredentials={setCredentials}
-                handleLogin={handleLogin}
-                setShowLogin={() => {}}
-              />
+              // Login Page
+              <Routes>
+                <Route
+                  path="/login"
+                  element={
+                    <Login
+                      credentials={credentials}
+                      setCredentials={setCredentials}
+                      handleLogin={handleLogin}
+                      setShowLogin={() => {}}
+                    />
+                  }
+                />
+                <Route path="*" element={<Navigate to="/login" />} />
+              </Routes>
             ) : (
               <>
                 <Header />
@@ -45,6 +57,7 @@ function App() {
                     <Route path="/" element={<Products />} />
                     <Route path="/products/:id" element={<ProductDetail />} />
                     <Route path="/cart" element={<Cart />} />
+                    <Route path="*" element={<Navigate to="/" />} />
                   </Routes>
                 </main>
                 <Footer />

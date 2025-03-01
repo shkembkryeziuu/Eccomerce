@@ -144,7 +144,10 @@ function Products() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {currentProducts.map((product) => (
-          <div key={product.id} className="bg-white shadow-lg rounded-lg p-6">
+          <div
+            key={product.id}
+            className="bg-white shadow-lg rounded-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+          >
             <img
               src={`/Eccomerce/images/${product.imageUrl}`}
               alt={product.name}
@@ -158,7 +161,7 @@ function Products() {
             <p className="text-gray-700">${product.price}</p>
             <Link
               to={`/products/${product.id}`}
-              className="block bg-indigo-600 text-white text-center py-2 rounded-lg mt-4"
+              className="block bg-indigo-600 text-white text-center py-2 rounded-lg mt-4 hover:bg-indigo-500"
             >
               {t("shopNow")}
             </Link>

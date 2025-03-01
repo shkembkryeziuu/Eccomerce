@@ -33,7 +33,7 @@ function Header() {
 
         <button
           onClick={() => setShowLogin(true)}
-          className="bg-blue-600 px-4 py-1 rounded-lg text-sm font-semibold hover:bg-blue-500"
+          className="bg-indigo-600 px-4 py-1 rounded-lg text-sm font-semibold hover:bg-blue-500"
         >
           {t("login")}
         </button>
@@ -55,7 +55,9 @@ function Header() {
       {showLogin && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center">
           <div className="bg-white p-6 rounded-lg">
-            <h2 className="text-xl font-bold mb-4">{t("login")}</h2>
+            <h2 className="text-xl font-bold mb-4  text-blue-600">
+              {t("login")}
+            </h2>
             <form onSubmit={handleLogin} className="space-y-4">
               <input
                 type="text"
