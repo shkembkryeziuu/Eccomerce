@@ -178,7 +178,7 @@ function Products() {
           {t("category.previous")}
         </button>
         <span>
-          {t("")} {currentPage} to{t("")} {totalPages}
+          {t("")} {currentPage} {t("of")} {totalPages}
         </span>
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded-lg"
