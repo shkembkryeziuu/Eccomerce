@@ -13,7 +13,7 @@ function Cart() {
       </h1>
       {cart.length === 0 ? (
         <p className="text-center">
-          {t("EmptyCart")}{" "}
+          {t("Your Cart is Empty")}{" "}
           <Link to="/" className="text-blue-600">
             {t("shopNow")}
           </Link>
