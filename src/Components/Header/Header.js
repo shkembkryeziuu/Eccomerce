@@ -4,7 +4,7 @@ import { useLanguage } from "../../context/LanguageContext";
 
 function Header() {
   const { cart } = useCart();
-  const { language, toggleLanguage, t } = useLanguage(); // Using t() for translations
+  const { language, toggleLanguage, t } = useLanguage();
 
   return (
     <header className="bg-gray-900 text-white p-4 flex justify-between items-center shadow-md">
