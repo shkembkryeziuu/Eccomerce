@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Eccomerce/static/css/main.9e4ee7fa.css",
-    "main.js": "/Eccomerce/static/js/main.64d6ae22.js",
+    "main.css": "/Eccomerce/static/css/main.580886a0.css",
+    "main.js": "/Eccomerce/static/js/main.aba97d64.js",
     "index.html": "/Eccomerce/index.html",
-    "main.9e4ee7fa.css.map": "/Eccomerce/static/css/main.9e4ee7fa.css.map",
-    "main.64d6ae22.js.map": "/Eccomerce/static/js/main.64d6ae22.js.map"
+    "main.580886a0.css.map": "/Eccomerce/static/css/main.580886a0.css.map",
+    "main.aba97d64.js.map": "/Eccomerce/static/js/main.aba97d64.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e4ee7fa.css",
-    "static/js/main.64d6ae22.js"
+    "static/css/main.580886a0.css",
+    "static/js/main.aba97d64.js"
   ]
 }
